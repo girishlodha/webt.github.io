@@ -1,0 +1,98 @@
+h1{
+    background-color: rgb(221, 221, 221);
+    border:10px solid rgb(0, 0, 0);
+
+    width: 440px;
+    margin: auto;
+    padding: 10px;
+
+
+}
+h5{
+    background-color: azure;
+    width: 320px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    float: right;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(134, 81, 66);
+    padding:6px;
+    border: none;
+    cursor:pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited
+{
+    color: rgb(203, 197, 192);
+}
+
+.eateries
+{
+    background-color: rgb(35, 33, 33);
+    border-right:  10px solid rgb(120, 115, 115) ;
+ border-bottom:   10px solid rgb(144, 141, 141) ;
+    margin: 30px;
+    padding: 10px;
+    display: block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+p
+{
+    /* margin: 20px;
+    padding: 20px; */
+
+    background-color:  rgb(127, 123, 123);
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+#pfc , #vegies ,#heritage , #foodcity
+{
+      float: left;
+      width: 45%;
+}
+
+#smartpind , #dreamland  , #tikka , #ccd
+{
+    float: right;
+    width: 45%;
+
+}
+
+h4{
+    background-color: rgb(195, 190, 190);
+
+}
+body
+{
+
+    background-image: url("https://2017.megalith.co.in/wp-content/themes/IIT.png") ;
+    background-repeat: space;
+    padding: 5%;
+
+
+    /* background-repeat: no-repeat; */
+    background-size: 10%;
+    background-repeat: space;
+
+
+}
